@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* webfont */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+html,body,div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-size: 14px;
+    font-family: 'Pretendard-Regular';
+}
+#wrap{
+    min-width: 1400px;
+}
+/* header */
+#header{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.gnb{
+    padding: 35px 280px;
+}
+.gnb ul{
+    display: flex;
+    justify-content: space-between;
+}
+.gnb li a{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gnb li a:hover{
+    color: #F9A626;
+}
+.space1{
+    padding-right: 200px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+.link{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.link ul{
+    display: flex;
+}
+.link li{
+    padding: 0 15px;
+}
+.link a{
+    display: block;
+    font-weight: bold;
+    color: #ACACAC;
+    font-size: 14px;
+}
+.global{
+    background: url(../../image/main/header/global.svg) no-repeat right -2px top -2px;
+}
+/* banner */
+#banner{
+    margin-top: 5px;
+    height: 980px;
+    overflow: hidden;
+    position: relative;
+}
+#banner ul{
+    display: flex;
+}
+.slide{
+    width: 1920px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+}
+.search{
+    width: 1320px;
+    position: absolute;
+    left: 50%;
+    margin-left: -660px;
+    bottom: 0;    
+    background-color: #16224B;
+}
+.search li{
+    width: 350px;
+    height: 100px;
+    border: 1px solid #fff;
+}
+.search li a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.selection{
+    width: 280px;
+    margin: 23px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    background: url(../../image/main/banner/search.png) no-repeat right 0px top 9px;
+}
+.center{
+    text-align: center;
+    padding: 35px;
+}
+/* section1 */
+#section01{
+    width: 1320px;
+    margin: 0 auto;
+}
+h2{
+    width: 150px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom : 5px solid #F9A626;
+}
+.hotel{
+    position: relative;
+    height: 600px;
+}
+.busan{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 1320px;
+    text-align: center;
+    padding: 25px 0;
+    background-color: rgba(0,0,0,0.7);    
+}
+.busan p{
+    color: #F9A626;
+    font-weight: bold;
+    font-size: 30px;
+}
+.info ul{
+    display: flex;
+}
+.info li{
+    text-align: center;
+    width: 660px;
+}
+.info li a{
+    display: block;
+    font-size: 20px;
+    padding: 30px 0;
+    font-weight: 600;
+}
+.hotel1{
+    background-color: #000;
+    color: #fff;
+}
+.hotel2{
+    background-color: #D2D2D2;
+    color: #5D5D5D;
+}
+/* section2 */
+#board{
+    width: 1320px;
+    height: 950px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+#board> li{
+    width: 20%;
+}
+#board> li> a{
+    height: 100px;
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    box-sizing: border-box;
+    background: url(../../image/main/section02/tab.png) no-repeat right 119px bottom 20px;
+}
+#board> li.on> a{
+    background-color: #ccc;
+    font-size: 20px;
+    color: #fff;
+}
+#board> li.on> div{
+    /* 공통꾸미기 */
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+}
+#board> li> div{
+    height: 0;
+    overflow: hidden;
+}
+.room{
+    display: flex;
+    position: relative;
+}
+.room2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.text{
+    width: 700px;
+    height: 600px;
+    padding: 70px;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    background-image: url(../../image/main/section02/text_bottom.png), url(../../image/main/section02/text_top.png);
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0 , right 0 top 0;
+}
+.text_top{
+    line-height: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+.text_top h3{
+    color: #F9A626;
+    font-size: 20px;
+}
+.text_top h4{
+    font-size: 40px;
+}
+.text_top p{
+    line-height: 25px;
+    font-size: 18px;
+}
+.text_bottom{
+    margin-top: 30px;
+    line-height: 40px;
+}
+.text_bottom p{
+    font-size: 18px;    
+}
+.text_bottom a{
+    display: block;
+    text-align: center;
+    width: 250px;
+    background-color: #000;
+    color: #fff;
+    margin: 20px 0 0 175px;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* section3 */
+#section03{
+    position: relative;
+    overflow: hidden;
+    height: 1100px;
+}
+.h24{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 120px;    
+}
+.cafe{
+    width: 1320px;
+    margin: 500px auto;
+}
+.cafe h3{
+    color: #F9A626;
+    font-size: 23px;
+}
+.cafe p{
+    font-size: 19px;
+}
+.cafe_box1{
+    height: 200px;
+    margin: 20px 0;
+    padding: 40px 0 0 350px;
+    background: url(../../image/main/section03/cafe_books.jpg) no-repeat left 0 top 0;
+}
+.cafe_box2{
+    height: 200px;
+    margin: 20px 0;
+    padding: 40px 0 0 350px;
+    background: url(../../image/main/section03/cafe_rooms.jpg) no-repeat left 0 top 0;
+}
+/* section4 */
+#section04{
+    margin: 0 auto;
+    width: 1320px;
+}
+#section04 h2{
+    width: 220px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+}
+.text_box{
+    width: 650px;
+    line-height: 50px;
+}
+.text_box h3{
+    font-size: 50px;
+}
+.text_box p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.images{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* section5 */
+.banner_bar{
+    width: 1320px;
+    margin: 100px auto;
+    height: 400px;
+    background-image: url(../../image/main/section04/bar.jpg);
+}
+/* footer */
+#footer{
+    background-color: #000;
+}
+.inner_footer{
+    width: 1320px;
+    margin: 0 auto;
+    color: #a5a5a5;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_box1{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.footer_box2{
+    margin:35px 0 10px;
+}
+.f_logo{
+    position: relative;
+  }
+.f_logo:hover .logo_b{
+    display: block;
+}
+.logo_b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.footer_box3 ul{
+    display: flex;
+}
+.footer_box3 li{
+    margin:10px 20px 50px 0;
+}
+.footer_box3 a{
+    display: block;
+    opacity: 50%;
+}
+.footer_box3 a:hover{
+    opacity: 100%;
+}
+.footer_link{
+    margin-top: 50px;
+}
+.footer_link span{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer_link ul{
+    display: flex;
+
+}
+.footer_link a{
+    display: block;
+    margin-bottom: 15px;
+}
+.footer_link li{
+    margin-left: 50px;
+    text-align: center;
+}

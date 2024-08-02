@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* webfont */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,body,div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-size: 14px;
+    font-family: 'Pretendard-Regular';
+
+}
+#wrap{
+    min-width: 1400px;
+    position: relative;
+}
+/* header */
+#header{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.gnb{
+    padding: 35px 280px;
+}
+.gnb ul{
+    display: flex;
+    justify-content: space-between;
+}
+.gnb li a{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gnb li a:hover{
+    color: #F9A626;
+}
+.space1{
+    padding-right: 200px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+.link{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.link ul{
+    display: flex;
+}
+.link li{
+    padding: 0 15px;
+}
+.link a{
+    display: block;
+    font-weight: bold;
+    color: #ACACAC;
+    font-size: 14px;
+}
+.global{
+    background: url(../../image/sub2/header/global.svg) no-repeat right -2px top -2px;
+}
+/* banner */
+#banner {
+    background: url(../../image/sub2/banner/PLAN_banner.jpg) no-repeat center;
+    height: 1000px;
+    margin-top: 5px;
+
+}
+/* section1 */
+#section1 {
+    background: url(../../image/sub2/section1/bg1.png) no-repeat center;
+    height: 3000px;
+    position: absolute;
+    width: 100%;
+    top: 970px;
+}
+
+/* ss */
+.boxList {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.box1{
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+.box2{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.box.vibration {
+    animation: vibration .3s infinite;
+}
+  
+@keyframes vibration {
+    from {
+      transform: rotate(2deg);
+    }
+    to {
+      transform: rotate(-2deg);
+    }
+}
+  
+  
+  /* ----------------------- */
+  
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+  
+  
+/*section2  */
+#section2{
+    position: absolute;
+    width: 100%;
+    top: 1130px;
+    left: 0;
+}
+.inner_section{
+    width: 1320px;
+    margin: 0 auto;
+    height: 2900px;
+    border-top: 1px #000 dashed;
+}
+.check_in{
+    position: relative;
+}
+.round1{
+    position: absolute;
+    top: -19px;
+    left: 45.2%;
+    background-color: #F9A626;
+    border-radius: 30px;
+    width: 125px;
+    height: 41px;
+}
+.round2{
+    position: absolute;
+    top: -22px;
+    left: 45%;
+    border: 1px #000 dashed;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.plan{
+    margin-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.text_warp{
+    width: 820px;
+}
+.time{
+    position: relative;
+}
+.round3{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #F9A626;
+    border-radius: 70px;
+    width: 135px;
+    height: 135px;
+}
+.round4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px #000 dashed;
+    box-sizing: border-box;
+    border-radius: 70px;
+    width: 135px;
+    text-align: center;
+    padding: 43px 15px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.text{
+    width: 650px;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+.text_top{
+    border-bottom: #F9A626 1px dashed;
+}
+.text_top h2{
+    font-size: 40px;
+    padding-left: 30px;
+}
+.text_bottom{
+    margin-top: 40px;
+    padding: 0 30px;
+    font-size: 20px;
+}
+.img{
+    width: 500px;
+    height: 400px;
+}
+.footprint{    
+    height: 150px;
+    background: url(../../image/sub2/section2/footprint.png);
+    position: absolute;
+    top: 314px;
+    left: 384px;
+}
+/* section3 */
+#section3{
+    background: url(../../image/sub2/section3/bg3.png) no-repeat center;
+    height: 1600px;
+    position: absolute;
+    width: 100%;
+    top: 3850px;
+}
+.inner_section3{
+    width: 1320px;
+    margin: 0 auto;
+    border-top: 1px #000 dashed;
+    margin-top: 160px;
+}
+.check_out{
+    position: relative;
+}
+.round5{
+    position: absolute;
+    top: -19px;
+    left: 44.7%;
+    background-color: #F9A626;
+    border-radius: 30px;
+    width: 145px;
+    height: 40px;
+}
+.round6{
+    position: absolute;
+    top: -22px;
+    left: 44.5%;
+    border: 1px #000 dashed;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.slide{
+    width: 1920px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 1150px;
+}
+.slide ul{
+    display: flex;
+}
+.slide li{
+    margin-left: 50px;
+}
+/* footer */
+#footer{
+    position: absolute;
+    width: 100%;
+    top: 5400px;
+    background-color: #000;
+}
+.inner_footer{
+    width: 1320px;
+    margin: 0 auto;
+    color: #a5a5a5;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_box1{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.footer_box2{
+    margin:35px 0 10px;
+}
+.f_logo{
+    position: relative;
+  }
+.f_logo:hover .logo_b{
+    display: block;
+}
+.logo_b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.footer_box3 ul{
+    display: flex;
+}
+.footer_box3 li{
+    margin:10px 20px 50px 0;
+}
+.footer_box3 a{
+    display: block;
+    opacity: 50%;
+}
+.footer_box3 a:hover{
+    opacity: 100%;
+}
+.footer_link{
+    margin-top: 50px;
+}
+.footer_link span{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer_link ul{
+    display: flex;
+
+}
+.footer_link a{
+    display: block;
+    margin-bottom: 15px;
+}
+.footer_link li{
+    margin-left: 50px;
+    text-align: center;
+}
