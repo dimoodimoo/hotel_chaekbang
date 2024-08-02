@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="155" viewBox="0 0 120 155">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_398" data-name="사각형 398" width="120" height="120" transform="translate(522 563)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_274" data-name="그룹 274" transform="translate(-522 -501)">
+    <g id="그룹_273" data-name="그룹 273">
+      <path id="패스_31" data-name="패스 31" d="M0,0H120V30H0Z" transform="translate(522 501)"/>
+      <text id="CHECK_IN" data-name="CHECK IN" transform="translate(537 523)" fill="#fff" font-size="20" font-family="Pretendard-Regular, Pretendard"><tspan x="0" y="0">CHECK IN</tspan></text>
+      <g id="마스크_그룹_1" data-name="마스크 그룹 1" transform="translate(0 -27)" clip-path="url(#clip-path)">
+        <g id="グループ_798" data-name="グループ 798" transform="translate(521.988 563)">
+          <g id="グループ_797" data-name="グループ 797" transform="translate(0.012)">
+            <path id="パス_526" data-name="パス 526" d="M150.7,581.92a22.45,22.45,0,0,1,.1-2.4h-9.55c-.059.79-.073,1.594-.073,2.4s.016,1.611.073,2.4h9.539a22.5,22.5,0,0,1-.092-2.4Z" transform="translate(-127.157 -521.923)" fill="#222"/>
+            <path id="パス_527" data-name="パス 527" d="M360.321,203.518c.9-.571,1.823-1.108,2.757-1.587l.363-.177-4.754-8.253a36.814,36.814,0,0,0-3.471,1.995l4.756,8.253Z" transform="translate(-319.921 -174.267)" fill="#222"/>
+            <path id="パス_528" data-name="パス 528" d="M193.533,358.684l8.253,4.754,2-3.469-8.253-4.756a36.879,36.879,0,0,0-2,3.471Z" transform="translate(-174.298 -319.91)" fill="#222"/>
+            <path id="パス_529" data-name="パス 529" d="M912.373,769.605a31.522,31.522,0,0,1-1.6,2.742l-.236.349,8.253,4.754c.731-1.125,1.4-2.264,2.011-3.452l-8.239-4.771Z" transform="translate(-820.034 -692.773)" fill="#222"/>
+            <path id="パス_530" data-name="パス 530" d="M201.964,769.591l-.191-.361-8.242,4.754a34.212,34.212,0,0,0,1.995,3.469l8.253-4.754-.236-.349a29.96,29.96,0,0,1-1.58-2.759Z" transform="translate(-174.298 -692.775)" fill="#222"/>
+            <path id="パス_531" data-name="パス 531" d="M360.321,910.737l-.349-.236-4.756,8.253a37.513,37.513,0,0,0,3.471,2.014l4.754-8.253-.363-.177a30.227,30.227,0,0,1-2.757-1.6Z" transform="translate(-319.921 -820.003)" fill="#222"/>
+            <path id="パス_532" data-name="パス 532" d="M769.252,201.742l3.471,2.014,4.754-8.253a36.9,36.9,0,0,0-3.452-1.995Z" transform="translate(-692.797 -174.27)" fill="#222"/>
+            <path id="パス_533" data-name="パス 533" d="M579.557,968.574V978.1c.792.071,1.594.085,2.4.085s1.611-.016,2.4-.085V968.48h-4.8v.1Z" transform="translate(-521.956 -872.217)" fill="#222"/>
+            <path id="パス_534" data-name="パス 534" d="M584.354,150.788v-9.536c-.79-.071-1.592-.085-2.4-.085s-1.606.014-2.4.085v9.626h4.8Z" transform="translate(-521.956 -127.145)" fill="#222"/>
+            <path id="パス_535" data-name="パス 535" d="M769.252,912.526l4.773,8.253c1.179-.62,2.33-1.283,3.452-2.014l-4.754-8.253Z" transform="translate(-692.797 -820.001)" fill="#222"/>
+            <path id="パス_536" data-name="パス 536" d="M920.8,358.684a37.348,37.348,0,0,0-2.012-3.469l-8.253,4.756,2.016,3.469Z" transform="translate(-820.034 -319.91)" fill="#222"/>
+            <path id="パス_537" data-name="パス 537" d="M978.148,579.524h-9.635v4.8h9.635c.059-.792.073-1.594.073-2.4S978.207,580.314,978.148,579.524Z" transform="translate(-872.25 -521.925)" fill="#222"/>
+            <path id="パス_538" data-name="パス 538" d="M60.012,0a60,60,0,1,0,60,60,60,60,0,0,0-60-60Zm0,112.258A52.256,52.256,0,1,1,96.964,96.952a52.256,52.256,0,0,1-36.952,15.307Z" transform="translate(-0.012)" fill="#222"/>
+          </g>
+          <rect id="長方形_55" data-name="長方形 55" width="26.512" height="6.563" rx="3.28" transform="translate(57.607 56.72)" fill="#222"/>
+          <rect id="長方形_56" data-name="長方形 56" width="33.089" height="4.811" rx="2.405" transform="translate(62.417 30.191) rotate(90)" fill="#222"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
